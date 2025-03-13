@@ -99,6 +99,12 @@ ENV/
 env.bak/
 venv.bak/
 
+# log files
+keylog.txt
+
+# hidden files
+.hidden_folder/
+
 # Spyder project settings
 .spyderproject
 .spyderworkspace
