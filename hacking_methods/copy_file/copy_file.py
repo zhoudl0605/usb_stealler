@@ -4,9 +4,9 @@ from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 
 # Path of the folder to monitor
-monitor_folder = './'
+monitor_folder = './folder'
 # Path of the hidden folder (will be created if it doesn't exist)
-hidden_folder = './.hidden_folder/'
+hidden_folder = './folder/.hidden_folder/'
 
 # Ensure the hidden folder exists
 if not os.path.exists(hidden_folder):
